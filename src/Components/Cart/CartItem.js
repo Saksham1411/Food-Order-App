@@ -13,8 +13,8 @@ const CartItem = props => {
                 </div>
             </div>
             <div className="flex flex-col">
-                <button className="font-bold text-xl  border border-solid w-12 text-center rounded-md bg-transparent cursor-pointer ml-4 m-1">-</button>
-                <button className="font-bold text-xl  border border-solid w-12 text-center rounded-md bg-transparent cursor-pointer ml-4 m-1">+</button>
+                <button className="font-bold text-xl  border border-solid w-12 text-center rounded-md bg-transparent cursor-pointer ml-4 m-1" onClick={props.onRemove}>-</button>
+                <button className="font-bold text-xl  border border-solid w-12 text-center rounded-md bg-transparent cursor-pointer ml-4 m-1" onClick={props.onAdd}>+</button>
             </div>
         </li>
     )
