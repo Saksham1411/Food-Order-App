@@ -26,6 +26,7 @@ const MealItemForm = props =>{
                 min:'1',
                 max:'5',
                 step:'1',
+                defaultValue:'1',
             }}
             />
             <button className="cursor-pointer bg-orange-900 text-white py-1 px-8 rounded-3xl font-bold">
