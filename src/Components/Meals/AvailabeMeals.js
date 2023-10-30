@@ -39,7 +39,7 @@ const AvailabeMeals = () => {
 }, [])
 if (isLoading) {
   return <section className="text-center text-white text-2xl">
-    <p>Loading....</p>
+    <p><span className="w-12 h-12 border-4 border-white border-b-orange-700 rounded-full inline-block animate-spin"></span></p>
   </section>
 }
 
