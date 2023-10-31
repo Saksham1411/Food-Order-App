@@ -4,7 +4,7 @@ const CartItem = props => {
     const price = `₹ ${props.price.toFixed(2)}`;
 
     return (
-        <li className="flex justify-between items-center border-b-2 border-solid py-4 my-4">
+        <li className="flex justify-between items-center border-b-2 border-solid py-4">
             <div>
                 <h2 className="mx-2">{props.name}</h2>
                 <div className="w-40 flex justify-between items-center">

@@ -26,7 +26,7 @@ const Cart = props => {
     }
 
     let cartItems = (
-        <ul className="list-none m-0 p-0 max-h-80 overflow-auto">
+        <ul className="list-none m-0 p-0 max-h-48 overflow-auto">
             {cartCtx.items.map((item) => (
                 <CartItem
                     key={item.id}
