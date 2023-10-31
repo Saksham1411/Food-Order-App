@@ -95,11 +95,14 @@ const Cart = (props) => {
   );
 
   const isSubmitingLoader = (
-    <div className="flex justify-center ">
-      <span className="w-12 h-12 border-4 border-white border-b-orange-700 rounded-full inline-block animate-spin"></span>
-    </div>
+    <div className="flex justify-center items-center ">
+          <div className="flex items-center justify-center space-x-2 animate-pulse">
+            <div className="w-3 h-3 bg-orange-800 rounded-full"></div>
+            <div className="w-3 h-3 bg-orange-800 rounded-full"></div>
+            <div className="w-3 h-3 bg-orange-800 rounded-full"></div>
+          </div>
+        </div>
   );
-
   const submitedContent = (
     <div className="flex flex-col">
       <p className="mt-2">Order is placed successfully....</p>
